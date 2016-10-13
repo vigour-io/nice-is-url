@@ -23,7 +23,7 @@ Checks if a string is a valid url
 <!-- VDOC END -->
 
 ```javascript
-var isUrl = require('nice-is-url')
+const isUrl = require('nice-is-url')
 isUrl('http://localhost:3000') // true
 isUrl('boom') // false
 ```

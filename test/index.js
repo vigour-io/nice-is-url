@@ -1,8 +1,8 @@
 'use strict'
-var test = require('tape')
-var isURL = require('../')
+const test = require('tape')
+const isURL = require('../')
 
-var testCases = [
+const testCases = [
 // ['url', expectedResult]
   ['string', false],
   ['domain.ext', true],
@@ -32,7 +32,7 @@ test('isURL', function (t) {
   }
 })
 
-var protocolCases = [
+const protocolCases = [
 // ['url', expectedResult]
   ['string', false],
   ['domain.ext', false],
