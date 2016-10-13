@@ -1,6 +1,6 @@
 {
   "name": "nice-is-url",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Checks if a string is a valid url",
   "main": "lib/index.js",
   "scripts": {
